@@ -1,3 +1,12 @@
+<script>
+    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        var viewport = document.querySelector("meta[name=viewport]");
+        if (viewport) {
+            viewport.setAttribute("content", "width=1024, initial-scale=0.1, user-scalable=yes");
+        }
+    }
+</script>
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
