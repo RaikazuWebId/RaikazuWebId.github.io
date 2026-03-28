@@ -369,10 +369,10 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 89%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 56%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Dev And Project Saya";
 }
 .teams .carousel .card{
     background: #222;
@@ -648,7 +648,7 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .home .home-content .text-2{
         font-size: 50px;
     }
